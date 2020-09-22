@@ -1,0 +1,91 @@
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.taskManager {
+
+    padding: 40px 64px;
+    width: 100%;
+    font-family: Roboto,serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.taskManagerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    width: 1153px;
+}
+
+.taskManagerLabel {
+    display: block;
+    height: 56px;
+    line-height:56px;
+    vertical-align: middle;
+    font-family: Roboto,serif;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.table {
+
+    border-collapse: collapse;
+}
+
+.row {
+    height: 42px;
+
+}
+
+.column_1 {
+    width: 182px;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+.column_2 {
+    width: 870px;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+.column_3 {
+    width: 100px;
+    padding: 11px 10px 10px 22px;
+    box-sizing: border-box;
+
+}
+
+
+.tableBorder {
+    border: 1px solid #E6E6E6;
+}
+
+.tableButtonBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.update {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url(../../../img/Update.png) no-repeat no-repeat #ffffff;
+    cursor: pointer;
+}
+
+.delete {
+    display: block;
+    width: 18px;
+    height: 22px;
+    background: url(../../../img/Delete.png) no-repeat no-repeat #ffffff;
+    cursor: pointer;
+}
+

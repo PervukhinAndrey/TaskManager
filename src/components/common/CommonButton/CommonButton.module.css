@@ -1,0 +1,56 @@
+.commonButton {
+    display: block;
+
+    height: 36px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;
+    font-family: Roboto,serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.commonButton:active {
+    color: white;
+}
+
+.normalButton {
+    width: 148px;
+}
+
+.bigButton {
+    width: 180px;
+}
+
+.redButton {
+    border-color: #FF0000;
+
+}
+
+.redButton:active {
+    background-color: #FF0000;
+
+}
+
+.greenButton {
+    border-color: #39B54A;;
+
+}
+
+.greenButton:active {
+    background-color: #39B54A;
+
+}
+
+.blueButton {
+    border-color: #0071BC;
+
+}
+
+.blueButton:active {
+    background-color: #0071BC;
+
+}
